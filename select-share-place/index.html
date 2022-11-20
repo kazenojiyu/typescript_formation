@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understanding TypeScript</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <div id="gmap" class="map">
+      <p>Please enter an address!</p>
+    </div>
+    <div id="mbmap" class="map">
+      <p>Please enter an address!</p>
+    </div>
+    <form>
+      <input type="text" id="address">
+      <button type="submit">SEARCH ADDRESS</button>
+    </form>
+    <script type="module" src="./src/main.ts"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByOdNZDSqOnTxmiaChwDSjaf9y7Z3R2pQ"
+      defer
+    ></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+  </body>
+</html>
